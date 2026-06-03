@@ -51,15 +51,16 @@ def match_face(target_face_gray):
 # --- UI APP CONFIGURATION ---
 st.set_page_config(page_title="AI Criminal Face Recognition", page_icon="🛡️", layout="wide")
 
+# Corrected parameters here (unsafe_allow_html=True)
 st.markdown("""
     <style>
     .main-title { font-size:38px !important; font-weight: bold; color: #E74C3C; text-align: center; margin-bottom: 0px; }
     .subtitle { font-size:18px !important; text-align: center; color: #7F8C8D; margin-bottom: 30px; }
     </style>
-""", unsafe_index=True)
+""", unsafe_allow_html=True)
 
-st.markdown('<div class="main-title">🛡️ AI-POWERED CRIMINAL FACE IDENTIFICATION SYSTEM</div>', unsafe_index=True)
-st.markdown('<div class="subtitle">Advanced Facial Recognition & Surveillance Dashboard | Final Year Project</div>', unsafe_index=True)
+st.markdown('<div class="main-title">🛡️ AI-POWERED CRIMINAL FACE IDENTIFICATION SYSTEM</div>', unsafe_allow_html=True)
+st.markdown('<div class="subtitle">Advanced Facial Recognition & Surveillance Dashboard | Final Year Project</div>', unsafe_allow_html=True)
 
 # --- SIDEBAR METRICS ---
 df_db = pd.read_csv(CSV_PATH)
