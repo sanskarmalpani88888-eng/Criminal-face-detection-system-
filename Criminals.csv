@@ -1,12 +1,4 @@
 ID,Name,Crime
-CRM-101,Rajesh Kumar,Bank Robbery and Financial Fraud
-CRM-102,Amit Sharma,Cyber Crime and Phishing
-CRM-103,Vijay Patil,Vehicle Theft and Smuggling
-CRM-104,Sunita Deshmukh,Identity Theft and Forgery
-CRM-105,Vikram Malhotra,Corporate Espionage
-CRM-106,Rahul Hegde,Extortion and Blackmailing
-CRM-107,Priya Nair,Narcotics Trafficking
-CRM-108,Sanjay Joshi,Shoplifting and Burglary
-CRM-109,Deepak Verma,Illegal Arms Possession
-CRM-110,Anjali Rao,Intellectual Property Theft
+CRM-101,Rajesh Kumar,Bank Robbery
+CRM-102,Amit Sharma,Cyber Crime
 
